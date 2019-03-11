@@ -31,7 +31,7 @@
 <v t="leo.20170709015940.1"><vh>近端</vh></v>
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 </v>
-<v t="yen.20170224232341.1"><vh>編輯 template</vh>
+<v t="yen.20170224232341.1" a="E"><vh>編輯 template</vh>
 <v t="leo.20180115093448.1" a="E"><vh>@path theme/attila/templates</vh>
 <v t="leo.20180715212936.1"><vh>@edit article.html</vh></v>
 <v t="leo.20180115093536.1"><vh>@edit base.html</vh></v>
@@ -53,7 +53,7 @@
 <v t="leo.20170710101854.1"><vh>@edit article.html</vh></v>
 </v>
 </v>
-<v t="leo.20170710015511.1"><vh>編輯 plugin</vh>
+<v t="leo.20170710015511.1" a="E"><vh>編輯 plugin</vh>
 <v t="leo.20170710015523.1" a="E"><vh>@path plugin</vh>
 <v t="leo.20170710015523.2" a="E"><vh>@path tipue_search</vh>
 <v t="leo.20170710015523.3"><vh>@edit tipue_search.py</vh></v>
@@ -69,7 +69,8 @@
 <v t="leo.20170710022041.1" a="E"><vh>@path markdown</vh>
 <v t="leo.20180115115910.1" a="E"><vh>2018</vh>
 <v t="leo.20180423103639.1" a="E"><vh>2018 Fall CP 課程</vh>
-<v t="leo.20180423103656.1"><vh>@edit 20180718.md</vh></v>
+<v t="leo.20180423103656.1"><vh>@edit 20180910.md</vh></v>
+<v t="leo.20180909205246.1"><vh>@edit 20180911.md</vh></v>
 </v>
 </v>
 </v>

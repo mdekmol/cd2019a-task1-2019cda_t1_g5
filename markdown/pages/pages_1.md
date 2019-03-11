@@ -1,12 +1,14 @@
 Title: About
 
-##2018 Fall 分組網誌
+## CMSimfly 內容管理網誌
 
-課程倉儲: <a href="https://github.com/mdecourse/2018fall">https://github.com/mdecourse/2018fall</a>
+課程倉儲: <a href="https://github.com/chiamingyen/cmsimfly">https://github.com/chiamingyen/cmsimfly</a>
 
-課程投影片: <a href="https://mdecourse.github.io/2018fall/reveal">https://mdecourse.github.io/2018fall/reveal</a>
+內容管理: <a href="https://chiamingyen.github.io/cmsimfly/">https://chiamingyen.github.io/cmsimfly/</a>
 
-課程網誌: <a href="https://mdecourse.github.io/2018fall/blog">https://mdecourse.github.io/2018fall/blog</a>
+課程投影片: <a href="https://chiamingyen.github.io/cmsimfly/reveal">https://chiamingyen.github.io/cmsimfly/reveal</a>
+
+課程網誌: <a href="https://chiamingyen.github.io/cmsimfly/blog">https://chiamingyen.github.io/cmsimfly/blog</a>
 
 
 
