@@ -50,8 +50,22 @@
 <h2>任務六</h2>
 <p></p>
 <h1>ungit</h1>
-<p></p>
-<h2>ungit使用方式</h2>
+<p>配置 ungit</p>
+<p>1. 進入 <a href="http://mde.tw/wcm2019/content/實習項目二.html">http://mde.tw/wcm2019/content/實習項目二.html </a> ，下載<span> </span><a href="https://drive.google.com/file/d/1Cw8mHRcHKIZj7K7_m6x_af4vzo89539a/view?usp=sharing">kmol_2019.7z</a> 和 <span> </span><a href="https://drive.google.com/file/d/1G3cEZsw6d7NjqLLgu9jljVNBd6wF-ZrG/view?usp=sharing">nodejs_with_ungit.7z</a> 。</p>
+<p><img alt="" height="520" src="/images/step1.png" width="700"/></p>
+<p>2. 兩者分別解開壓縮檔案，然後將 nodejs 放入可攜 data 目錄中。</p>
+<p><img alt="" height="452" src="/images/step2.png" width="700"/></p>
+<p>3. 設定命令列搜尋路徑</p>
+<p>利用SciTE 編輯器編輯 start_cadlab.bat(及start.bat)。</p>
+<p>路徑指令: set path8=%Disk%:\nodejs;%Disk%:\nodejs\appdata\roaming\npm;</p>
+<p><img alt="" height="179" src="/images/step3.png" width="592"/></p>
+<p>並且將 path8 納入 path 設定</p>
+<p><img alt="" height="257" src="/images/step4.png" width="700"/></p>
+<p>4. 設定 USERPROFILE 環境變數</p>
+<p><img alt="" height="291" src="/images/step5.png" width="646"/></p>
+<p>5. 若要啟動 ungit，必須使用下列指令:</p>
+<p>ungit --launchBrowser=0 --launchCommand "C:\PROGRA~2\Google\Chrome\Application\chrome.exe %%U"</p>
+<p><img alt="" height="177" src="/images/step6.png" width="700"/></p><h2>ungit使用方式</h2>
 <p> git add . 後使用 ungit</p>
 <p><img alt="" height="477" src="/images/ApplicationFrameHost_1fEDHwoqFq.png" width="500"/></p>
 <p>輸入這次提交的主題後按下commit</p>
