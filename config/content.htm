@@ -41,11 +41,33 @@
 <p><span>Onshape及V-rep操作練習<br/></span></p>
 <h3>BubbleRob tutorial</h3>
 <p>操作步驟 :</p>
-<p>1.依照路徑[Menu bar --&gt; Add --&gt; Primitive shape --&gt; Sphere]新增一個直徑為 : 0.2 m的球體，記得檢查"<strong>Create dynamic and respondable shape</strong>"是有被勾選的。</p>
+<p>1.</p>
+<p>依照路徑[Menu bar --&gt; Add --&gt; Primitive shape --&gt; Sphere]新增一個直徑為 : 0.2 m的球體，記得檢查"<strong>Create dynamic and respondable shape</strong>"是有被勾選的。</p>
 <p><img alt="" height="305" src="/images/BubbleRob tutorial-2.PNG" width="399"/></p>
-<p>2.按下ok後，球體便會新增在畫面中，為測試球體是可以調整參數以及可以作動的，&lt;control-space&gt;開始模擬，&lt;control-c&gt;複製球體後再按&lt;control-v&gt;會看到兩球體相撞後各自滾開，驗證此球體是可以作動的。</p>
-<p>3.停止模擬，雙擊球體，打開編輯視窗，將<strong>Collidable,</strong> <strong>Measurable,</strong> <strong>Renderable</strong> and <strong>Detectable </strong>選項勾選</p>
+<p>2.</p>
+<p>按下ok後，球體便會新增在畫面中，為測試球體是可以調整參數以及可以作動的，&lt;control-space&gt;開始模擬，&lt;control-c&gt;複製球體後再按&lt;control-v&gt;會看到兩球體相撞後各自滾開，驗證此球體是可以作動的。</p>
+<p>3.</p>
+<p>停止模擬，雙擊球體，打開編輯視窗，將<strong>Collidable,</strong> <strong>Measurable,</strong> <strong>Renderable</strong> and <strong>Detectable </strong>選項勾選</p>
 <p><img alt="" height="624" src="/images/BubbleRob tutorial-3.PNG" width="394"/></p>
+<p>4.</p>
+<p>接著，點選球體，打開位置視窗，切換到<strong>translation</strong>，在Z軸上打上0.02，確定<strong>Relative to</strong>是在<strong>World </strong>後，點擊<strong>Translate selection</strong>，球體就會往上0.02 m</p>
+<p><img alt="" height="419" src="/images/BubbleRob tutorial-4.PNG" width="480"/></p>
+<p>5.</p>
+<p>[Menu bar --&gt; Add --&gt; Proximity sensor --&gt; Cone type]新增距離感測器，打開方向視窗，切換到Rotation，在Y.Z軸打上90度，按下確定將感測器轉至側邊。</p>
+<p><img alt="" height="455" src="/images/BubbleRob tutorial-5.PNG" width="477"/></p>
+<p>6.</p>
+<p>打開位置視窗，在X及Z軸輸入0.1及0.12將感測器對準球體中心</p>
+<p><img alt="" height="385" src="/images/BubbleRob tutorial-6.PNG" width="483"/></p>
+<p>7.</p>
+<p>雙擊感測器圖示，進到編輯視窗，點擊<strong>Show volume parameter</strong>按鈕，輸入數據如下:</p>
+<p><strong>Offset</strong> : 0.005</p>
+<p><strong>Angle</strong> : 30 </p>
+<p><strong>Range</strong> : 0.15</p>
+<p>完成後關閉此視窗，點擊<strong>Show detection parameters</strong>按鈕，取消<strong>Don't allow detections if distance smaller than</strong>的勾勾。</p>
+<p>8.</p>
+<p>選取球體及感測器[Menu bar --&gt; Edit --&gt; Make last selected object parent]</p>
+<p>會變成這樣:</p>
+<p><img alt="" height="282" src="/images/BubbleRob tutorial-7.PNG" width="547"/></p>
 <h2>實習任務三</h2>
 <p>=======</p>
 <p><span></span>40623153可攜程式影片</p>
@@ -61,6 +83,17 @@
 <p></p>
 <h2>實習任務六</h2>
 <p></p>
+<h1>個人心得</h1>
+<h2>40623153</h2>
+<h2>40423111</h2>
+<h2>40423142</h2>
+<h2>40623138</h2>
+<h2>40623154</h2>
+<h2>40423114</h2>
+<h2>40623134</h2>
+<h2>40623131</h2>
+<h2>40423159</h2>
+<h2>40623114</h2>
 <h1>ungit</h1>
 <p>配置 ungit</p>
 <p>1. 進入 <a href="http://mde.tw/wcm2019/content/實習項目二.html">http://mde.tw/wcm2019/content/實習項目二.html </a> ，下載<span> </span><a href="https://drive.google.com/file/d/1Cw8mHRcHKIZj7K7_m6x_af4vzo89539a/view?usp=sharing">kmol_2019.7z</a> 和 <span> </span><a href="https://drive.google.com/file/d/1G3cEZsw6d7NjqLLgu9jljVNBd6wF-ZrG/view?usp=sharing">nodejs_with_ungit.7z</a> 。</p>
