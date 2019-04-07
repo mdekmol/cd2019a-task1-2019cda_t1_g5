@@ -38,8 +38,32 @@
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/KYgg5whGl4o" width="600"></iframe></p>
 <p><a href="https://www.youtube.com/watch?v=29j664R_ckA&amp;t=6s">40623153可攜系統影片</a></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/29j664R_ckA" width="560"></iframe></p>
-<p><span></span></p>
-<h2>實習任務二</h2>
+<h3>ssh key</h3>
+<p><strong>關閉彈出的登入窗</strong></p>
+<p>開啟start.bat後輸入  git config --edit --system</p>
+<p>開啟編輯器，編輯git的設定</p>
+<p>使用按鍵H/J/K/L控制方向，之後按a進入編輯模式</p>
+<p>就可以按Backspace刪除最後一行</p>
+<p>如下</p>
+<p><img alt="" height="483" src="/images/ssh.png" width="914"/></p>
+<p>刪除後按Esc鍵離開編輯模式</p>
+<p>輸入2個冒號後，再輸入wq存檔並關閉即可</p>
+<p>直接離開則輸入exit即可退出</p>
+<p>在可攜系統的程式視窗輸入sh (可至y:\git\bin中確認)</p>
+<p>執行 git 的 shell並輸入(ssh-keygen -t rsa -b 4096 -C "This is my key")</p>
+<p>將會建立Private 與 Public金鑰至y:\home\.ssh\id_rsa與id_rsa.pub將 id_rsa.pub 的內容複製貼上至Github 帳號的Settings</p>
+<p>如下</p>
+<p><img alt="" height="392" src="/images/ssh1.png" width="193"/></p>
+<p>在SSH and GPG keys的SSH Key點擊new ssh key並貼上所複製的內容</p>
+<p><img alt="" height="464" src="/images/ssh-2.png" width="923"/></p>
+<p>首先要確認倉儲是以ssh的方式clone</p>
+<p>利用以下指令clone</p>
+<p>git clone git@github.com:(mdekmol/github分組網址)</p>
+<p>或直接使用SciTE編輯器開啟個人倉儲的.git檔案裡面的config檔案</p>
+<p>把url = https://github.com/<span>(</span><span>mdekmol/github分組網址)</span></p>
+<p>改成url = git@github.com:<span>(</span><span>mdekmol/github分組網址)</span></p>
+<p>完成後直接提交推送即可不用打帳號密碼就能push。</p>
+<p></p><h2>實習任務二</h2>
 <p><span>Onshape及V-rep操作練習<br/></span></p>
 <h3>BubbleRob tutorial</h3>
 <p>操作步驟 :</p>
@@ -108,7 +132,8 @@
 <h2>40623154</h2>
 <h3>BubbleRob tutorial心得(40623154)</h3>
 <p>透過turorial學習了很多，不管是英文還是v-rep的熟悉度，跟著文章的步驟慢慢完成，雖然有大半的時間都在解讀英文單子，但可以透過這樣的學習方式來提升英文能力，過程不太難需要得很仔細的去理解教學所講的東西，雖然最後還是沒有完整的做出來，依照教學步驟也找不到問題，但至少比之前熟悉了這個程式，多練習才會進步。</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/PjFWTUKwyJo" width="560"></iframe></p><h2>40423214</h2>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/PjFWTUKwyJo" width="560"></iframe></p>
+<h2>40423214</h2>
 <h3>BubbleRob tutorial心得(40423214)</h3>
 <p>    上學期已經有做過一個tutorial的機械手臂練習，所以同樣面對這次的全英文教學步驟或多或少都有些習慣，也漸漸的多了些耐心去讀懂這篇教學，多虧了上學期的練習和自己的摸索，做完這次的小汽車碰撞模擬並不是太困難，跟著文章中的步驟一步一步來就能完成，大部分時間還是花在解讀英文上面，雖然說過程不是太困難，但還是有遇到一些問題 : 按部就班地跟著教學步驟走，該設定的都設定了，該給的程式碼也輸入進去了，但小汽車就是不會避開眼前的障礙物，義無反顧地往前衝，以為是哪個步驟做錯了，重新檢查了一遍，確定步驟都沒錯，才突然發現我每個部件的名稱與程式碼裡的名稱並不完全一樣，更改成一致後就沒問題了，以下為完成影片 :</p>
 <p></p>

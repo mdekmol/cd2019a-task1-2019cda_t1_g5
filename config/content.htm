@@ -38,8 +38,33 @@
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/KYgg5whGl4o" width="600"></iframe></p>
 <p><a href="https://www.youtube.com/watch?v=29j664R_ckA&amp;t=6s">40623153可攜系統影片</a></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/29j664R_ckA" width="560"></iframe></p>
-<p><span></span></p>
-<h2>實習任務二</h2>
+<h3>ssh key</h3>
+<p><strong>關閉彈出的登入窗</strong></p>
+<p>開啟start.bat後輸入  git config --edit --system</p>
+<p>開啟編輯器，編輯git的設定</p>
+<p>使用按鍵H/J/K/L控制方向，之後按a進入編輯模式</p>
+<p>就可以按Backspace刪除最後一行</p>
+<p>如下</p>
+<p><img alt="" height="483" src="/images/ssh.png" width="914"/></p>
+<p>刪除後按Esc鍵離開編輯模式</p>
+<p>輸入2個冒號後，再輸入wq存檔並關閉即可</p>
+<p>直接離開則輸入exit即可退出</p>
+<p>在可攜系統的程式視窗輸入sh (可至y:\git\bin中確認)</p>
+<p>執行 git 的 shell並輸入(ssh-keygen -t rsa -b 4096 -C "This is my key")</p>
+<p>將會建立Private 與 Public金鑰至y:\home\.ssh\id_rsa與id_rsa.pub將 id_rsa.pub 的內容複製貼上至Github 帳號的Settings</p>
+<p>如下</p>
+<p><img alt="" height="392" src="/images/ssh1.png" width="193"/></p>
+<p>在SSH and GPG keys的SSH Key點擊new ssh key並貼上所複製的內容</p>
+<p><img alt="" height="464" src="/images/ssh-2.png" width="923"/></p>
+<p><strong>利用ssh提交推送</strong></p>
+<p>首先要確認倉儲是以ssh的方式clone</p>
+<p>利用以下指令clone</p>
+<p>git clone git@github.com:(mdekmol/github分組網址)</p>
+<p>或直接使用SciTE編輯器開啟個人倉儲的.git檔案裡面的config檔案</p>
+<p>把url = https://github.com/<span>(</span><span>mdekmol/github分組網址)</span></p>
+<p>改成url = git@github.com:<span>(</span><span>mdekmol/github分組網址)</span></p>
+<p>完成後直接提交推送即可不用打帳號密碼就能push。</p>
+<p></p><h2>實習任務二</h2>
 <p><span>Onshape及V-rep操作練習<br/></span></p>
 <h3>BubbleRob tutorial</h3>
 <p>操作步驟 :</p>
