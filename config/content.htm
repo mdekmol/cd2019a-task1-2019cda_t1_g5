@@ -67,18 +67,18 @@
 <p><span>Onshape及V-rep操作練習<br/></span></p>
 <h3>BubbleRob tutorial</h3>
 <p>操作步驟 :</p>
-<p>1.</p>
+<p><strong>1.</strong></p>
 <p>依照路徑[Menu bar --&gt; Add --&gt; Primitive shape --&gt; Sphere]新增一個直徑為 : 0.2 m的球體，記得檢查"<strong>Create dynamic and respondable shape</strong>"是有被勾選的。</p>
 <p><img alt="" height="305" src="/images/BubbleRob tutorial-2.PNG" width="399"/></p>
-<p>2.</p>
+<p><strong>2.</strong></p>
 <p>按下ok後，球體便會新增在畫面中，為測試球體是可以調整參數以及可以作動的，&lt;control-space&gt;開始模擬，&lt;control-c&gt;複製球體後再按&lt;control-v&gt;會看到兩球體相撞後各自滾開，驗證此球體是可以作動的。</p>
-<p>3.</p>
+<p><strong>3.</strong></p>
 <p>停止模擬，雙擊球體，打開編輯視窗，將<strong>Collidable,</strong> <strong>Measurable,</strong> <strong>Renderable</strong> and <strong>Detectable </strong>選項勾選</p>
 <p><img alt="" height="624" src="/images/BubbleRob tutorial-3.PNG" width="394"/></p>
-<p>4.</p>
+<p><strong>4.</strong></p>
 <p>接著，點選球體，打開位置視窗，切換到<strong>translation</strong>，在Z軸上打上0.02，確定<strong>Relative to</strong>是在<strong>World </strong>後，點擊<strong>Translate selection</strong>，球體就會往上0.02 m</p>
 <p><img alt="" height="419" src="/images/BubbleRob tutorial-4.PNG" width="480"/></p>
-<p>5.</p>
+<p><strong>5.</strong></p>
 <p>[Menu bar --&gt; Add --&gt; Proximity sensor --&gt; Cone type]新增距離感測器，打開方向視窗，切換到Rotation，在Y.Z軸打上90度，按下確定將感測器轉至側邊。</p>
 <p><img alt="" height="455" src="/images/BubbleRob tutorial-5.PNG" width="477"/></p>
 <p>6.</p>
@@ -118,15 +118,27 @@
 <p><span><span><span>[Menu bar --&gt; Tools --&gt; Calculation module properties]打開計算模塊屬性對話框，點<strong>Add new distance object</strong>，選擇新的集合項目<strong>bubbleRob_collection</strong>，重命名為<strong>bubbleRob_distance。</strong></span></span></span></p>
 <p><span><span><span><strong><img alt="" height="466" src="/images/bubbleRob_distance.png" width="383"/></strong></span></span></span></p>
 <p><span><span><span><strong>15.</strong></span></span></span></p>
-<p><span><span><span><strong>這時我們按下開始模擬，並不會看到有任何改變，但實際上小汽車上的感測器已經開始感測小汽車與可備感測物體之間的最小距離，但問題是畫面中並無可備感測的物體，因此在下一步驟我們要新增可備感測的物體。</strong></span></span></span></p>
+<p>這時我們按下開始模擬，並不會看到有任何改變，但實際上小汽車上的感測器已經開始感測小汽車與可備感測物體之間的最小距離，但問題是畫面中並無可備感測的物體，因此在下一步驟我們要新增可備感測的物體。</p>
 <p><span><span><span><strong>16.</strong></span></span></span></p>
-<p><span><span><span><strong>這一步要新增一個用來顯示物體與小汽車距離的圖表，[Menu bar --&gt; Add --&gt; Graph]，新增後將之改名為"<em>bubbleRob_graph</em>"，將graph拉到<em>bubbleRob</em>底下並設定graph的位置再(0，0，0.005)</strong></span></span></span></p>
+<p><span><span><span>這一步要新增一個用來顯示物體與小汽車距離的圖表，<strong>[Menu bar --&gt; Add --&gt; Graph]</strong>，新增後將之改名為"<strong><em>bubbleRob_graph</em></strong>"，將graph拉到<em>bubbleRob</em>底下並設定graph的位置再(0，0，0.005)</span></span></span></p>
 <p><span><span><span><strong>17.</strong></span></span></span></p>
-<p><span><span><span><strong>接下來雙擊<em>bubbleRob_graph</em>，取消打勾"Display XYZ-planes"然後點擊Add new data stream to record</strong></span></span></span></p>
-<p><span><span><span><strong>Data stream type  :  absolute x-position<br/></strong></span></span></span></p>
-<p><span><span><span><strong> <strong>Object / item to record</strong>  :  <em>bubbleRob_graph</em></strong></span></span></span></p>
-<p><span><span><span><strong><em>bubbleRob_graph's</em> absolute x-coordinate便會出現在 Data stream recording list裡面，照上述步驟新增y跟z，會長這樣 :<br/></strong></span></span></span></p>
-<p><span><span><span><strong><img alt="" height="594" src="/images/BubbleRob tutorial-9.PNG" width="383"/></strong></span></span></span></p><h2>實習任務三</h2>
+<p><span><span><span>接下來雙擊<strong><em>bubbleRob_graph</em></strong>，取消打勾"<strong>Display XYZ-planes</strong>"然後點擊<strong>Add new data stream to record</strong></span></span></span></p>
+<p><span><span><span><strong>Data stream type  :  </strong>absolute x-position<strong><br/></strong></span></span></span></p>
+<p><span><span><span><strong> <strong>Object / item to record</strong>  :  </strong><em>bubbleRob_graph</em></span></span></span></p>
+<p><span><span><span><strong><em>bubbleRob_graph's</em> absolute x-coordinate</strong>便會出現在<strong> Data stream recording list</strong>裡面，照上述步驟新增y跟z，會長這樣 :<strong><br/></strong></span></span></span></p>
+<p><span><span><span><strong><img alt="" height="594" src="/images/BubbleRob tutorial-9.PNG" width="383"/></strong></span></span></span></p>
+<p><span><span><span><strong>18.</strong></span></span></span></p>
+<p><span><span><span>在來設置3D 的曲獻，顯示小汽車的行走軌跡，點擊<strong>Edit 3D curves，</strong>接著點<strong>Add new curve</strong>，在對話框哩，如下設定 : <br/></span></span></span></p>
+<p><span><span><span> <strong>X-value : </strong><em>bubbleRob_x_pos</em><strong><br/></strong></span></span></span></p>
+<p><span><span><span> <strong>Y-value : </strong><em>bubbleRob_y_pos</em><strong> </strong><br/></span></span></span></p>
+<p><span><span><span><strong>Z-value :  </strong><em>bubbleRob_z_pos</em> <strong><br/></strong></span></span></span></p>
+<p><span><span><span>設定好之後，在最底下</span></span></span></p>
+<p><span><span><span>點選<strong> Relative to world</strong> 以及設定 <strong>Curve width</strong> 為 4</span></span></span></p>
+<p><span><span><span><img alt="" height="320" src="/images/BubbleRob tutorial-10.PNG" width="380"/></span></span></span></p>
+<p><strong>19.</strong></p>
+<p><span><span><span>這步驟要新增障礙物，新增primitive cylinder，尺寸為(0.1，0.1，0.2)，並解將這些選項打勾 <strong>Collidable</strong>, <strong>Measurable</strong>, <strong>Renderable, </strong> <strong>Detectable</strong></span></span></span></p>
+<p>複製這些圓柱，將小汽車圍住即可。</p>
+<p><strong>20.</strong></p><h2>實習任務三</h2>
 <p></p>
 <p></p>
 <h2>實習任務四</h2>
