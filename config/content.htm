@@ -117,17 +117,17 @@
 <p><span><span><span>15.</span></span></span></p>
 <p><span><span><span>[Menu bar --&gt; Tools --&gt; Calculation module properties]打開計算模塊屬性對話框，點<strong>Add new distance object</strong>，選擇新的集合項目<strong>bubbleRob_collection</strong>，重命名為<strong>bubbleRob_distance。</strong></span></span></span></p>
 <p><span><span><span><strong><img alt="" height="466" src="/images/bubbleRob_distance.png" width="383"/></strong></span></span></span></p>
-<p><span><span><span><strong>15.</strong></span></span></span></p>
+<p>16.</p>
 <p>這時我們按下開始模擬，並不會看到有任何改變，但實際上小汽車上的感測器已經開始感測小汽車與可備感測物體之間的最小距離，但問題是畫面中並無可備感測的物體，因此在下一步驟我們要新增可備感測的物體。</p>
-<p><span><span><span><strong>16.</strong></span></span></span></p>
+<p>17.</p>
 <p><span><span><span>這一步要新增一個用來顯示物體與小汽車距離的圖表，<strong>[Menu bar --&gt; Add --&gt; Graph]</strong>，新增後將之改名為"<strong><em>bubbleRob_graph</em></strong>"，將graph拉到<em>bubbleRob</em>底下並設定graph的位置再(0，0，0.005)</span></span></span></p>
-<p><span><span><span><strong>17.</strong></span></span></span></p>
+<p>18.</p>
 <p><span><span><span>接下來雙擊<strong><em>bubbleRob_graph</em></strong>，取消打勾"<strong>Display XYZ-planes</strong>"然後點擊<strong>Add new data stream to record</strong></span></span></span></p>
 <p><span><span><span><strong>Data stream type  :  </strong>absolute x-position<strong><br/></strong></span></span></span></p>
 <p><span><span><span><strong> <strong>Object / item to record</strong>  :  </strong><em>bubbleRob_graph</em></span></span></span></p>
 <p><span><span><span><strong><em>bubbleRob_graph's</em> absolute x-coordinate</strong>便會出現在<strong> Data stream recording list</strong>裡面，照上述步驟新增y跟z，會長這樣 :<strong><br/></strong></span></span></span></p>
 <p><span><span><span><strong><img alt="" height="594" src="/images/BubbleRob tutorial-8.PNG" width="383"/></strong></span></span></span></p>
-<p><span><span><span><strong>18.</strong></span></span></span></p>
+<p><span><span><span>19.</span></span></span></p>
 <p><span><span><span>在來設置3D 的曲獻，顯示小汽車的行走軌跡，點擊<strong>Edit 3D curves，</strong>接著點<strong>Add new curve</strong>，在對話框哩，如下設定 : <br/></span></span></span></p>
 <p><span><span><span> <strong>X-value : </strong><em>bubbleRob_x_pos</em><strong><br/></strong></span></span></span></p>
 <p><span><span><span> <strong>Y-value : </strong><em>bubbleRob_y_pos</em><strong> </strong><br/></span></span></span></p>
@@ -135,13 +135,14 @@
 <p><span><span><span>設定好之後，在最底下</span></span></span></p>
 <p><span><span><span>點選<strong> Relative to world</strong> 以及設定 <strong>Curve width</strong> 為 4</span></span></span></p>
 <p><span><span><span><img alt="" height="320" src="/images/BubbleRob tutorial-10.PNG" width="380"/></span></span></span></p>
-<p><strong>19.</strong></p>
+<p>20.</p>
 <p><span><span><span>這步驟要新增障礙物，新增primitive cylinder，尺寸為(0.1，0.1，0.2)，並解將這些選項打勾 <strong>Collidable</strong>, <strong>Measurable</strong>, <strong>Renderable, </strong> <strong>Detectable</strong></span></span></span></p>
 <p>複製這些圓柱，將小汽車圍住即可。</p>
-<p><strong>20.</strong></p>
+<p>21.</p>
 <p>雙擊<strong>bubbleRob</strong><em>，</em>切換到common然後勾選<strong>Object is model base </strong>與<strong>Object/model can transfer or accept DNA </strong>，完成後再把兩個轉軸(Joint)隱藏</p>
-<p><strong>21.</strong></p>
-<p></p><h2>實習任務三</h2>
+<p>22.</p>
+<p><strong>[Menu bar --&gt; Add --&gt; Vision sensor --&gt; Perspective type] </strong>來打開 <strong>vision sensor </strong>，將<span>position and orientation 設置為 (0,0,0)，再來將<strong>Far clipping plane </strong>設置為1，<strong>Resolution X / Y </strong>設置為 256 / 256 </span></p>
+<p><img alt="" height="760" src="/images/scene Object Properties.png" width="550"/></p><h2>實習任務三</h2>
 <p></p>
 <p></p>
 <h2>實習任務四</h2>
