@@ -97,11 +97,11 @@
 <v t="leo.20190610000603.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609234156.37"><vh>系統功能展示</vh>
-<v t="leo.20190609234156.38"><vh>人機對打</vh>
+<v t="leo.20190609234156.37" a="E"><vh>系統功能展示</vh>
+<v t="leo.20190609234156.38" a="E"><vh>人機對打</vh>
 <v t="leo.20190609234156.39"><vh>內容</vh></v>
 </v>
-<v t="leo.20190610001024.1"><vh>人人對打</vh>
+<v t="leo.20190610001024.1" a="E"><vh>人人對打</vh>
 <v t="leo.20190610001024.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20190610001322.1" a="E"><vh>電腦對打</vh>
@@ -544,7 +544,7 @@ BUG:
 						
 </t>
 <t tx="leo.20190609234156.39">### 手足球模擬系統功能展示
-##人機對打
+## 人機對打
 
 &lt;iframe width="640" height="492" src="https://www.youtube.com/embed/GFXknVaN5EM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20190609234156.4">&lt;section data-markdown&gt;
@@ -740,7 +740,7 @@ BUG:
 
 						
 </t>
-<t tx="leo.20190610001024.2">##人人對打
+<t tx="leo.20190610001024.2">## 人人對打
 
 &lt;iframe width="640" height="492" src="https://www.youtube.com/embed/O1KK0GeVyqQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20190610001322.1">&lt;section data-markdown&gt;
@@ -754,7 +754,7 @@ BUG:
 
 						
 </t>
-<t tx="leo.20190610001322.2">##電腦對打
+<t tx="leo.20190610001322.2">## 電腦對打
 
 &lt;iframe width="640" height="492" src="https://www.youtube.com/embed/E9FdTr4Rllw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
