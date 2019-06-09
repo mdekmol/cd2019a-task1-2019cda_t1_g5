@@ -21,10 +21,10 @@
 <v t="leo.20190609220318.1" a="E"><vh>body</vh>
 <v t="leo.20190609220318.2" a="E"><vh>reveal div</vh>
 <v t="leo.20190609234156.1" a="E"><vh>slides div</vh>
-<v t="leo.20190609234156.2" a="E"><vh>封面投影片</vh>
+<v t="leo.20190609234156.2"><vh>封面投影片</vh>
 <v t="leo.20190609234156.3"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190609234156.4" a="E"><vh>大綱</vh>
+<v t="leo.20190609234156.4"><vh>大綱</vh>
 <v t="leo.20190609234156.5"><vh>內容</vh></v>
 </v>
 <v t="leo.20190609234156.6"><vh>專案執行內容</vh>
@@ -97,25 +97,20 @@
 <v t="leo.20190610000603.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609234156.37" a="E"><vh>系統功能展示</vh>
+<v t="leo.20190609234156.37"><vh>系統功能展示</vh>
 <v t="leo.20190609234156.38"><vh>人機對打</vh>
 <v t="leo.20190609234156.39"><vh>內容</vh></v>
 </v>
 <v t="leo.20190610001024.1"><vh>人人對打</vh>
 <v t="leo.20190610001024.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190610001322.1"><vh>電腦對打</vh>
+<v t="leo.20190610001322.1" a="E"><vh>電腦對打</vh>
 <v t="leo.20190610001322.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609234156.40"><vh>手足球功能</vh>
-<v t="leo.20190609234156.41"><vh>第一頁</vh>
+<v t="leo.20190609234156.40"><vh>最終整合成果</vh>
+<v t="leo.20190609234156.41" a="E"><vh>第一頁</vh>
 <v t="leo.20190609234156.42"><vh>內容</vh></v>
-</v>
-</v>
-<v t="leo.20190609234156.43"><vh>手足球程式碼</vh>
-<v t="leo.20190609234156.44"><vh>第一頁</vh>
-<v t="leo.20190609234156.45"><vh>內容</vh></v>
 </v>
 </v>
 </v>
@@ -577,30 +572,9 @@ BUG:
 
 						
 </t>
-<t tx="leo.20190609234156.42">### 手足球系統功能
+<t tx="leo.20190609234156.42">### 手足球球桿可控+送球機構成果
 
-
-
-</t>
-<t tx="leo.20190609234156.43">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20190609234156.44">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190609234156.45">### 手足球系統程式碼
-
-
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/cDMAcrfQEGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20190609234156.5">## 期末簡報內容
