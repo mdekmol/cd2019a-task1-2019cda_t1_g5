@@ -13,15 +13,15 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4"><vh>html</vh>
+<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
+<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4" a="E"><vh>html</vh>
 <v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20190609220318.1"><vh>body</vh>
-<v t="leo.20190609220318.2"><vh>reveal div</vh>
-<v t="leo.20190609220318.3"><vh>slides div</vh>
-<v t="leo.20190609220318.5"><vh>封面投影片</vh>
+<v t="leo.20190609220318.1" a="E"><vh>body</vh>
+<v t="leo.20190609220318.2" a="E"><vh>reveal div</vh>
+<v t="leo.20190609220318.3" a="E"><vh>slides div</vh>
+<v t="leo.20190609220318.5" a="E"><vh>封面投影片</vh>
 <v t="leo.20190609220318.6"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190609220318.7"><vh>大綱</vh>
@@ -347,7 +347,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190609220318.6">## 2019 Spring 協同產品設計實習
 ### 虎科大機械設計工程系
-### 第二組投影片
+### 第五組投影片
 
 &lt;small&gt;
 Created by [AG5](./../content/index.html)
