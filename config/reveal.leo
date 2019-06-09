@@ -21,29 +21,38 @@
 <v t="leo.20190609220318.1" a="E"><vh>body</vh>
 <v t="leo.20190609220318.2" a="E"><vh>reveal div</vh>
 <v t="leo.20190609232528.1" a="E"><vh>slides div</vh>
-<v t="leo.20190609232528.2"><vh>封面投影片</vh>
+<v t="leo.20190609232528.2" a="E"><vh>封面投影片</vh>
 <v t="leo.20190609232528.3"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190609232528.4"><vh>大綱</vh>
 <v t="leo.20190609232528.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20190609232528.6" a="E"><vh>專案執行內容</vh>
+<v t="leo.20190609232528.6"><vh>專案執行內容</vh>
 <v t="leo.20190609232528.7"><vh>第一頁</vh>
 <v t="leo.20190609232528.8"><vh>內容</vh></v>
 </v>
 <v t="leo.20190609232528.9"><vh>第二頁</vh>
 <v t="leo.20190609232528.10"><vh>內容</vh></v>
 </v>
-<v t="leo.20190609232528.11" a="E"><vh>第三頁</vh>
+<v t="leo.20190609232528.11"><vh>第三頁</vh>
 <v t="leo.20190609232528.12"><vh>內容</vh></v>
 </v>
-<v t="leo.20190609232528.13" a="E"><vh>第四頁</vh>
+<v t="leo.20190609232528.13"><vh>第四頁</vh>
 <v t="leo.20190609232528.14"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609232528.15"><vh>手足球部件設計</vh>
-<v t="leo.20190609232528.16"><vh>第一頁</vh>
+<v t="leo.20190609232528.15" a="E"><vh>零組件尺寸分析</vh>
+<v t="leo.20190609232528.16"><vh>球桌</vh>
 <v t="leo.20190609232528.17"><vh>內容</vh></v>
+</v>
+<v t="leo.20190609233331.1"><vh>球員</vh>
+<v t="leo.20190609233331.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190609233400.1"><vh>球桿</vh>
+<v t="leo.20190609233400.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190609233527.1"><vh>圓盤</vh>
+<v t="leo.20190609233527.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20190609232528.18"><vh>手足球部件模擬</vh>
@@ -311,9 +320,11 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190609232528.17">### 手足球系統設計
+<t tx="leo.20190609232528.17">### 球桌
 
-</t>
+我們是參考火球國際公開賽桌球場的規格做基準，基本上對尺寸做了一點微調。
+增加為了讓回球機構能運作的平面，且球門前的球員行程並沒有想像中的寬，故在角落處增加圓弧面。
+&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20190609232528.18">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -509,6 +520,58 @@ Created by [AG5](./../content/index.html)
 
 
 						
+</t>
+<t tx="leo.20190609233331.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609233331.2">### 球員
+
+外型依照老師提供的造型作為使用，我們將孔洞放大便於組合與安裝。</t>
+<t tx="leo.20190609233400.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609233400.2">### 球桿
+
+參考[火球國際公開賽桌](http://www.hightimesports.com/foosball/products_services/tables/fireball_ITSF) 將球桿分為一、二、三、五人，桿上突起部位為安裝球員處。
+
+單人、雙人桿在末端都向外延伸了一個10mm的圓柱，用來限制球員的行程和防止球桿從孔洞掉落。
+
+三人、五人桿因為安裝球員處的圓柱能達到限制形成的效果，所以並沒有向外延伸圓柱。
+
+</t>
+<t tx="leo.20190609233527.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609233527.2">### 圓盤
+
+初始設計使用的回球機構的圓盤，因為球會卡在球道末端而修改了錐形孔的圓心位置和圓盤大小及厚度。
+
+
+
 </t>
 </tnodes>
 </leo_file>
