@@ -41,8 +41,8 @@
 <v t="leo.20190609234156.14"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609234156.15" a="E"><vh>零組件尺寸分析</vh>
-<v t="leo.20190609234156.16" a="E"><vh>球桌</vh>
+<v t="leo.20190609234156.15"><vh>零組件尺寸分析</vh>
+<v t="leo.20190609234156.16"><vh>球桌</vh>
 <v t="leo.20190609234156.17"><vh>內容</vh></v>
 </v>
 <v t="leo.20190609234156.18"><vh>球員</vh>
@@ -73,6 +73,12 @@
 </v>
 <v t="leo.20190609235203.1" a="E"><vh>第二頁</vh>
 <v t="leo.20190609235203.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190609235807.1"><vh>第三頁</vh>
+<v t="leo.20190609235807.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190609235910.1" a="E"><vh>第四頁</vh>
+<v t="leo.20190609235910.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20190609234156.31"><vh>送球機構分析</vh>
@@ -668,5 +674,33 @@ Created by [AG5](./../content/index.html)
 <t tx="leo.20190609235203.2">### 零件部分組裝-2
 
 &lt;iframe width="640" height="492" src="https://www.youtube.com/embed/1xB8w9Y1sR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609235807.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609235807.2">### 零件部分組裝-3
+
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/laecXt_xsEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609235910.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609235910.2">### 零件爆炸圖
+
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/iXVRhWVAbCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
