@@ -20,51 +20,60 @@
 <v t="leo.20180902120523.5"><vh>head</vh></v>
 <v t="leo.20190609220318.1" a="E"><vh>body</vh>
 <v t="leo.20190609220318.2" a="E"><vh>reveal div</vh>
-<v t="leo.20190609220318.3" a="E"><vh>slides div</vh>
-<v t="leo.20190609220318.5" a="E"><vh>封面投影片</vh>
-<v t="leo.20190609220318.6"><vh>封面投影片內容</vh></v>
+<v t="leo.20190609232528.1" a="E"><vh>slides div</vh>
+<v t="leo.20190609232528.2"><vh>封面投影片</vh>
+<v t="leo.20190609232528.3"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190609220318.7"><vh>大綱</vh>
-<v t="leo.20190609220318.8"><vh>內容</vh></v>
+<v t="leo.20190609232528.4"><vh>大綱</vh>
+<v t="leo.20190609232528.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20190609220318.14"><vh>手足球部件分析</vh>
-<v t="leo.20190609220318.15"><vh>第一頁</vh>
-<v t="leo.20190609220318.16"><vh>內容</vh></v>
+<v t="leo.20190609232528.6" a="E"><vh>專案執行內容</vh>
+<v t="leo.20190609232528.7"><vh>第一頁</vh>
+<v t="leo.20190609232528.8"><vh>內容</vh></v>
 </v>
+<v t="leo.20190609232528.9"><vh>第二頁</vh>
+<v t="leo.20190609232528.10"><vh>內容</vh></v>
 </v>
-<v t="leo.20190609220318.19"><vh>手足球部件設計</vh>
-<v t="leo.20190609220318.20"><vh>第一頁</vh>
-<v t="leo.20190609220318.21"><vh>內容</vh></v>
+<v t="leo.20190609232528.11" a="E"><vh>第三頁</vh>
+<v t="leo.20190609232528.12"><vh>內容</vh></v>
 </v>
-</v>
-<v t="leo.20190609220828.1"><vh>手足球部件模擬</vh>
-<v t="leo.20190609220828.2"><vh>第一頁</vh>
-<v t="leo.20190609220828.3"><vh>內容</vh></v>
-</v>
-</v>
-<v t="leo.20190609220318.24"><vh>送球機構分析</vh>
-<v t="leo.20190609220318.25"><vh>第一頁</vh>
-<v t="leo.20190609220318.26"><vh>內容</vh></v>
+<v t="leo.20190609232528.13" a="E"><vh>第四頁</vh>
+<v t="leo.20190609232528.14"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609220318.29"><vh>送球機構設計</vh>
-<v t="leo.20190609220318.30" a="E"><vh>第一頁</vh>
-<v t="leo.20190609220318.31"><vh>內容</vh></v>
+<v t="leo.20190609232528.15"><vh>手足球部件設計</vh>
+<v t="leo.20190609232528.16"><vh>第一頁</vh>
+<v t="leo.20190609232528.17"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609220938.1"><vh>送球機構模擬</vh>
-<v t="leo.20190609220938.2"><vh>第一頁</vh>
-<v t="leo.20190609220938.3"><vh>內容</vh></v>
+<v t="leo.20190609232528.18"><vh>手足球部件模擬</vh>
+<v t="leo.20190609232528.19"><vh>第一頁</vh>
+<v t="leo.20190609232528.20"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609220318.36"><vh>手足球功能</vh>
-<v t="leo.20190609220318.37"><vh>第一頁</vh>
-<v t="leo.20190609220318.38"><vh>內容</vh></v>
+<v t="leo.20190609232528.21"><vh>送球機構分析</vh>
+<v t="leo.20190609232528.22"><vh>第一頁</vh>
+<v t="leo.20190609232528.23"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609221038.1"><vh>手足球程式碼</vh>
-<v t="leo.20190609221038.2"><vh>第一頁</vh>
-<v t="leo.20190609221038.3"><vh>內容</vh></v>
+<v t="leo.20190609232528.24"><vh>送球機構設計</vh>
+<v t="leo.20190609232528.25" a="E"><vh>第一頁</vh>
+<v t="leo.20190609232528.26"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20190609232528.27"><vh>送球機構模擬</vh>
+<v t="leo.20190609232528.28"><vh>第一頁</vh>
+<v t="leo.20190609232528.29"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20190609232528.30"><vh>手足球功能</vh>
+<v t="leo.20190609232528.31"><vh>第一頁</vh>
+<v t="leo.20190609232528.32"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20190609232528.33"><vh>手足球程式碼</vh>
+<v t="leo.20190609232528.34"><vh>第一頁</vh>
+<v t="leo.20190609232528.35"><vh>內容</vh></v>
 </v>
 </v>
 </v>
@@ -227,80 +236,21 @@ vertical: body pane on the botton</t>
 &lt;/body&gt;
 
 </t>
-<t tx="leo.20190609220318.14">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20190609220318.15">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190609220318.16">### 手足球系統分析
-</t>
-<t tx="leo.20190609220318.19">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
 <t tx="leo.20190609220318.2">&lt;div class="reveal"&gt;
 @others
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20190609220318.20">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190609220318.21">### 手足球系統設計
-
-</t>
-<t tx="leo.20190609220318.24">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20190609220318.25">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190609220318.26">### 送球機構分析
-
-
-</t>
-<t tx="leo.20190609220318.29">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20190609220318.3">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+<t tx="leo.20190609232528.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
 &lt;div class="slides"&gt;
 @others
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20190609220318.30">&lt;section data-markdown&gt;
+<t tx="leo.20190609232528.10">### 專案成果摘要
+
+能夠利用V-rep來執行手足球的動作，包含用按鍵控制球員的移動，電腦偵測球的位置讓球員自動移動，還有利用回球機構完成讓球進洞後可以回到場上。</t>
+<t tx="leo.20190609232528.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -311,16 +261,20 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190609220318.31">### 送球機構設計
+<t tx="leo.20190609232528.12">### 專案執行過程規劃(10~13)
 
+(第十週)分配工作、
+手足球設計構想初稿
+(第十一週)零件尺寸分析評估、
+設計零件(球員、球桌)
+(第十二週)人與人對打程式設計編譯
+(第十三週)設計繪製回球機構
+、
+模擬回球機構的動態、
+修改程式錯誤
 
 </t>
-<t tx="leo.20190609220318.36">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20190609220318.37">&lt;section data-markdown&gt;
+<t tx="leo.20190609232528.13">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -331,12 +285,52 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190609220318.38">### 手足球系統功能
+<t tx="leo.20190609232528.14">### 專案執行過程規劃(14~16)
 
-
+(第十四週)更改回球機構的瑕疵、
+確認成功模擬回球機構動態
+(第十五週)
+將回球機構與本體連結、
+將電腦與電腦對打程式導入Vrep
+(第十六週)
+將報告書與簡報完成、
+報告影片完成</t>
+<t tx="leo.20190609232528.15">&lt;section&gt;
+@others
+&lt;/section&gt;
 
 </t>
-<t tx="leo.20190609220318.5">&lt;section data-markdown&gt;
+<t tx="leo.20190609232528.16">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609232528.17">### 手足球系統設計
+
+</t>
+<t tx="leo.20190609232528.18">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609232528.19">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609232528.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -345,7 +339,70 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190609220318.6">## 2019 Spring 協同產品設計實習
+<t tx="leo.20190609232528.20">### 手足球系統模擬
+
+</t>
+<t tx="leo.20190609232528.21">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609232528.22">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609232528.23">### 送球機構分析
+
+
+</t>
+<t tx="leo.20190609232528.24">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609232528.25">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609232528.26">### 送球機構設計
+
+
+</t>
+<t tx="leo.20190609232528.27">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609232528.28">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609232528.29">### 送球機構模擬
+
+
+</t>
+<t tx="leo.20190609232528.3">## 2019 Spring 協同產品設計實習
 ### 虎科大機械設計工程系
 ### 第五組投影片
 
@@ -357,7 +414,49 @@ Created by [AG5](./../content/index.html)
 
 
 </t>
-<t tx="leo.20190609220318.7">&lt;section data-markdown&gt;
+<t tx="leo.20190609232528.30">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609232528.31">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609232528.32">### 手足球系統功能
+
+
+
+</t>
+<t tx="leo.20190609232528.33">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609232528.34">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609232528.35">### 手足球系統程式碼
+
+
+
+</t>
+<t tx="leo.20190609232528.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -366,19 +465,19 @@ Created by [AG5](./../content/index.html)
 
 						
 </t>
-<t tx="leo.20190609220318.8">## 期末簡報內容
+<t tx="leo.20190609232528.5">## 期末簡報內容
 
 * 手足球部件分析、設計、模擬
 * 送球機構分析、設計、模擬
 * 手足球功能、程式碼
 
 </t>
-<t tx="leo.20190609220828.1">&lt;section&gt;
+<t tx="leo.20190609232528.6">&lt;section&gt;
 @others
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20190609220828.2">&lt;section data-markdown&gt;
+<t tx="leo.20190609232528.7">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -389,15 +488,18 @@ Created by [AG5](./../content/index.html)
 
 						
 </t>
-<t tx="leo.20190609220828.3">### 手足球系統模擬
+<t tx="leo.20190609232528.8">### 專案執行內容
 
-</t>
-<t tx="leo.20190609220938.1">&lt;section&gt;
-@others
-&lt;/section&gt;
+零組件尺寸分析 (40623154 )
 
-</t>
-<t tx="leo.20190609220938.2">&lt;section data-markdown&gt;
+手足球系統模擬 (40423214 、40623138 )
+
+參數設計與繪圖 (40623154、40423142 )
+
+送球機構設計與模擬 ( 40623134、40423214 )
+
+期末簡報製作 (40623131、40423142 )</t>
+<t tx="leo.20190609232528.9">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -407,31 +509,6 @@ Created by [AG5](./../content/index.html)
 
 
 						
-</t>
-<t tx="leo.20190609220938.3">### 送球機構模擬
-
-
-</t>
-<t tx="leo.20190609221038.1">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20190609221038.2">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190609221038.3">### 手足球系統程式碼
-
-
-
 </t>
 </tnodes>
 </leo_file>
