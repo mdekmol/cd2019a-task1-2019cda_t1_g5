@@ -41,7 +41,7 @@
 <v t="leo.20190609234156.14"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609234156.15" a="E"><vh>零組件尺寸分析</vh>
+<v t="leo.20190609234156.15"><vh>零組件尺寸分析</vh>
 <v t="leo.20190609234156.16"><vh>球桌</vh>
 <v t="leo.20190609234156.17"><vh>內容</vh></v>
 </v>
@@ -64,9 +64,15 @@
 <v t="leo.20190609234207.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609234156.28"><vh>手足球部件模擬</vh>
-<v t="leo.20190609234156.29"><vh>第一頁</vh>
+<v t="leo.20190609234156.28" a="E"><vh>onshape繪圖</vh>
+<v t="leo.20190609234156.29" a="E"><vh>參數設計與繪圖組合</vh>
 <v t="leo.20190609234156.30"><vh>內容</vh></v>
+</v>
+<v t="leo.20190609235059.1" a="E"><vh>第一頁</vh>
+<v t="leo.20190609235059.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190609235203.1" a="E"><vh>第二頁</vh>
+<v t="leo.20190609235203.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20190609234156.31"><vh>送球機構分析</vh>
@@ -459,9 +465,9 @@ Created by [AG5](./../content/index.html)
 
 
 </t>
-<t tx="leo.20190609234156.30">### 手足球系統模擬
+<t tx="leo.20190609234156.30">### 參數設計與繪圖組合
 
-</t>
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/0dQfQbLJycg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20190609234156.31">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -634,5 +640,33 @@ Created by [AG5](./../content/index.html)
 為了讓球桿方便安裝，原本的孔洞與球桿設定為直徑15mm，但桿上的球員安裝處為直徑20mm，故將球桌的孔洞從15mm改為20mm，使球桿穿過孔洞之後安裝套筒就能使球桿固定於孔上也不會有安裝不便的問題。
 
 </t>
+<t tx="leo.20190609235059.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609235059.2">### 零件部分組裝-1
+
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/1xB8w9Y1sR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609235203.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609235203.2">### 零件部分組裝-2
+
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/1xB8w9Y1sR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
