@@ -89,17 +89,20 @@
 <v t="leo.20190610000254.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609234156.34" a="E"><vh>送球機構BUG修改</vh>
-<v t="leo.20190609234156.35" a="E"><vh>第一頁</vh>
+<v t="leo.20190609234156.34"><vh>送球機構BUG修改</vh>
+<v t="leo.20190609234156.35"><vh>第一頁</vh>
 <v t="leo.20190609234156.36"><vh>內容</vh></v>
 </v>
-<v t="leo.20190610000603.1" a="E"><vh>第二頁</vh>
+<v t="leo.20190610000603.1"><vh>第二頁</vh>
 <v t="leo.20190610000603.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609234156.37"><vh>送球機構模擬</vh>
-<v t="leo.20190609234156.38" a="E"><vh>第一頁</vh>
+<v t="leo.20190609234156.37" a="E"><vh>系統功能展示</vh>
+<v t="leo.20190609234156.38" a="E"><vh>人機對打</vh>
 <v t="leo.20190609234156.39"><vh>內容</vh></v>
+</v>
+<v t="leo.20190610001024.1" a="E"><vh>人人對打</vh>
+<v t="leo.20190610001024.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20190609234156.40"><vh>手足球功能</vh>
@@ -542,10 +545,10 @@ BUG:
 
 						
 </t>
-<t tx="leo.20190609234156.39">### 送球機構模擬
+<t tx="leo.20190609234156.39">### 手足球模擬系統功能展示
+##人機對打
 
-
-</t>
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/GFXknVaN5EM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20190609234156.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -749,5 +752,19 @@ BUG:
 增加斜面角度以及開口弧線曲率，球能很穩定的靠著圓盤，等待圓盤將球送回球場上
 
 </t>
+<t tx="leo.20190610001024.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190610001024.2">##人人對打
+
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/O1KK0GeVyqQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
