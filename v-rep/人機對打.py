@@ -8,11 +8,17 @@ import keyboard
 vrep.simxFinish(-1)
   
 clientID = vrep.simxStart('127.0.0.1', 19997, True, True, 5000, 5)
+<<<<<<< HEAD
+KickBallV = 360   
+#
+=======
 KickBallV = 90
+>>>>>>> 0ad28b940727d0e2c17ae5700a5b59827e9c8b9f
 Move_Minus =-0.1        
 Move_Plus =0.1
 n=1
 R_KickBallVel = (math.pi/180)*KickBallV
+#
 B_KickBallVel = -(math.pi/180)*KickBallV
 if clientID!= -1:
     print("Connected to remote server")
