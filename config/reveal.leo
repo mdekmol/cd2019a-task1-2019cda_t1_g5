@@ -64,35 +64,41 @@
 <v t="leo.20190609234207.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609234156.28" a="E"><vh>onshape繪圖</vh>
-<v t="leo.20190609234156.29" a="E"><vh>參數設計與繪圖組合</vh>
+<v t="leo.20190609234156.28"><vh>onshape繪圖</vh>
+<v t="leo.20190609234156.29"><vh>參數設計與繪圖組合</vh>
 <v t="leo.20190609234156.30"><vh>內容</vh></v>
 </v>
 <v t="leo.20190609235059.1" a="E"><vh>第一頁</vh>
 <v t="leo.20190609235059.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190609235203.1" a="E"><vh>第二頁</vh>
+<v t="leo.20190609235203.1"><vh>第二頁</vh>
 <v t="leo.20190609235203.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20190609235807.1"><vh>第三頁</vh>
 <v t="leo.20190609235807.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190609235910.1" a="E"><vh>第四頁</vh>
+<v t="leo.20190609235910.1"><vh>第四頁</vh>
 <v t="leo.20190609235910.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609234156.31"><vh>送球機構分析</vh>
+<v t="leo.20190609234156.31"><vh>送球機構設計與模擬</vh>
 <v t="leo.20190609234156.32"><vh>第一頁</vh>
 <v t="leo.20190609234156.33"><vh>內容</vh></v>
 </v>
+<v t="leo.20190610000254.1"><vh>第二頁</vh>
+<v t="leo.20190610000254.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190609234156.34"><vh>送球機構設計</vh>
+</v>
+<v t="leo.20190609234156.34" a="E"><vh>送球機構BUG修改</vh>
 <v t="leo.20190609234156.35" a="E"><vh>第一頁</vh>
 <v t="leo.20190609234156.36"><vh>內容</vh></v>
 </v>
+<v t="leo.20190610000603.1" a="E"><vh>第二頁</vh>
+<v t="leo.20190610000603.2"><vh>內容</vh></v>
+</v>
 </v>
 <v t="leo.20190609234156.37"><vh>送球機構模擬</vh>
-<v t="leo.20190609234156.38"><vh>第一頁</vh>
+<v t="leo.20190609234156.38" a="E"><vh>第一頁</vh>
 <v t="leo.20190609234156.39"><vh>內容</vh></v>
 </v>
 </v>
@@ -490,8 +496,9 @@ Created by [AG5](./../content/index.html)
 
 						
 </t>
-<t tx="leo.20190609234156.33">### 送球機構分析
+<t tx="leo.20190609234156.33">### 送球機構設計與模擬
 
+手足球發球與進球後自動送球機構設計與 V-rep 動態模擬 (機構與傳動系統設計與模擬)
 
 </t>
 <t tx="leo.20190609234156.34">&lt;section&gt;
@@ -510,8 +517,13 @@ Created by [AG5](./../content/index.html)
 
 						
 </t>
-<t tx="leo.20190609234156.36">### 送球機構設計
+<t tx="leo.20190609234156.36">### 球道-龍門口
 
+BUG:
+最初設計的球進了龍門口卻進不了球道
+
+改良後:
+就算是有角度的進球也能順利滾進球道
 
 </t>
 <t tx="leo.20190609234156.37">&lt;section&gt;
@@ -702,5 +714,40 @@ Created by [AG5](./../content/index.html)
 <t tx="leo.20190609235910.2">### 零件爆炸圖
 
 &lt;iframe width="640" height="492" src="https://www.youtube.com/embed/iXVRhWVAbCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190610000254.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190610000254.2">### 送球機構成果展示
+
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/WE4mQk36lyg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20190610000603.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190610000603.2">### 球道-球道尾
+
+BUG:
+斜面角度不夠，足球會來回滾動，無法順利滾進轉盤
+
+改良後:
+增加斜面角度以及開口弧線曲率，球能很穩定的靠著圓盤，等待圓盤將球送回球場上
+
+</t>
 </tnodes>
 </leo_file>
