@@ -24,7 +24,7 @@
 <v t="leo.20190609234156.2" a="E"><vh>封面投影片</vh>
 <v t="leo.20190609234156.3"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190609234156.4"><vh>大綱</vh>
+<v t="leo.20190609234156.4" a="E"><vh>大綱</vh>
 <v t="leo.20190609234156.5"><vh>內容</vh></v>
 </v>
 <v t="leo.20190609234156.6"><vh>專案執行內容</vh>
@@ -41,8 +41,8 @@
 <v t="leo.20190609234156.14"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609234156.15"><vh>零組件尺寸分析</vh>
-<v t="leo.20190609234156.16"><vh>球桌</vh>
+<v t="leo.20190609234156.15" a="E"><vh>零組件尺寸分析</vh>
+<v t="leo.20190609234156.16" a="E"><vh>球桌</vh>
 <v t="leo.20190609234156.17"><vh>內容</vh></v>
 </v>
 <v t="leo.20190609234156.18"><vh>球員</vh>
@@ -339,7 +339,7 @@ vertical: body pane on the botton</t>
 
 我們是參考火球國際公開賽桌球場的規格做基準，基本上對尺寸做了一點微調。
 增加為了讓回球機構能運作的平面，且球門前的球員行程並沒有想像中的寬，故在角落處增加圓弧面。
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+</t>
 <t tx="leo.20190609234156.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
