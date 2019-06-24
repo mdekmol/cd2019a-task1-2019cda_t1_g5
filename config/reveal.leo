@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,14 +10,14 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4" a="E"><vh>html</vh>
+<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
+<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4"><vh>html</vh>
 <v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20190609220318.1" a="E"><vh>body</vh>
-<v t="leo.20190609220318.2" a="E"><vh>reveal div</vh>
-<v t="leo.20190609234156.1" a="E"><vh>slides div</vh>
+<v t="leo.20190609220318.1"><vh>body</vh>
+<v t="leo.20190609220318.2"><vh>reveal div</vh>
+<v t="leo.20190609234156.1"><vh>slides div</vh>
 <v t="leo.20190609234156.2"><vh>封面投影片</vh>
 <v t="leo.20190609234156.3"><vh>封面投影片內容</vh></v>
 </v>
@@ -68,7 +65,7 @@
 <v t="leo.20190609234156.29"><vh>參數設計與繪圖組合</vh>
 <v t="leo.20190609234156.30"><vh>內容</vh></v>
 </v>
-<v t="leo.20190609235059.1" a="E"><vh>第一頁</vh>
+<v t="leo.20190609235059.1"><vh>第一頁</vh>
 <v t="leo.20190609235059.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20190609235203.1"><vh>第二頁</vh>
@@ -97,19 +94,19 @@
 <v t="leo.20190610000603.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190609234156.37" a="E"><vh>系統功能展示</vh>
-<v t="leo.20190609234156.38" a="E"><vh>人機對打</vh>
+<v t="leo.20190609234156.37"><vh>系統功能展示</vh>
+<v t="leo.20190609234156.38"><vh>人機對打</vh>
 <v t="leo.20190609234156.39"><vh>內容</vh></v>
 </v>
-<v t="leo.20190610001024.1" a="E"><vh>人人對打</vh>
+<v t="leo.20190610001024.1"><vh>人人對打</vh>
 <v t="leo.20190610001024.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190610001322.1" a="E"><vh>電腦對打</vh>
+<v t="leo.20190610001322.1"><vh>電腦對打</vh>
 <v t="leo.20190610001322.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20190609234156.40"><vh>最終整合成果</vh>
-<v t="leo.20190609234156.41" a="E"><vh>第一頁</vh>
+<v t="leo.20190609234156.41"><vh>第一頁</vh>
 <v t="leo.20190609234156.42"><vh>內容</vh></v>
 </v>
 </v>
@@ -286,7 +283,9 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190609234156.10">### 專案成果摘要
 
-能夠利用V-rep來執行手足球的動作，包含用按鍵控制球員的移動，電腦偵測球的位置讓球員自動移動，還有利用回球機構完成讓球進洞後可以回到場上。</t>
+能夠利用V-rep來執行手足球的動作，包含用按鍵控制球員的移動，電腦偵測球的位置讓球員自動移動，還有利用回球機構完成讓球進洞後可以回到場上。
+
+</t>
 <t tx="leo.20190609234156.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -331,7 +330,9 @@ vertical: body pane on the botton</t>
 將電腦與電腦對打程式導入Vrep
 (第十六週)
 將報告書與簡報完成、
-報告影片完成</t>
+報告影片完成
+
+</t>
 <t tx="leo.20190609234156.15">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -366,7 +367,9 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190609234156.19">### 球員
 
-外型依照老師提供的造型作為使用，我們將孔洞放大便於組合與安裝。</t>
+外型依照老師提供的造型作為使用，我們將孔洞放大便於組合與安裝。
+
+</t>
 <t tx="leo.20190609234156.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -480,7 +483,9 @@ Created by [AG5](./../content/index.html)
 </t>
 <t tx="leo.20190609234156.30">### 參數設計與繪圖組合
 
-&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/0dQfQbLJycg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/0dQfQbLJycg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609234156.31">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -546,7 +551,9 @@ BUG:
 <t tx="leo.20190609234156.39">### 手足球模擬系統功能展示
 ## 人機對打
 
-&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/GFXknVaN5EM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/GFXknVaN5EM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609234156.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -602,7 +609,7 @@ BUG:
 </t>
 <t tx="leo.20190609234156.8">### 專案執行內容
 
-零組件尺寸分析 (40623154 )
+零組件尺寸分析 (40623154 、40623153)
 
 手足球系統模擬 (40423214 、40623138 )
 
@@ -610,7 +617,9 @@ BUG:
 
 送球機構設計與模擬 ( 40623134、40423214 )
 
-期末簡報製作 (40623131、40423142 )</t>
+期末簡報製作 (40623131、40423142 、40623153)
+
+</t>
 <t tx="leo.20190609234156.9">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -651,7 +660,9 @@ BUG:
 </t>
 <t tx="leo.20190609235059.2">### 零件部分組裝-1
 
-&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/1xB8w9Y1sR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/1xB8w9Y1sR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609235203.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -665,7 +676,9 @@ BUG:
 </t>
 <t tx="leo.20190609235203.2">### 零件部分組裝-2
 
-&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/1xB8w9Y1sR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/1xB8w9Y1sR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609235807.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -679,7 +692,9 @@ BUG:
 </t>
 <t tx="leo.20190609235807.2">### 零件部分組裝-3
 
-&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/laecXt_xsEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/laecXt_xsEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609235910.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -693,7 +708,9 @@ BUG:
 </t>
 <t tx="leo.20190609235910.2">### 零件爆炸圖
 
-&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/iXVRhWVAbCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/iXVRhWVAbCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190610000254.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -742,7 +759,9 @@ BUG:
 </t>
 <t tx="leo.20190610001024.2">## 人人對打
 
-&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/O1KK0GeVyqQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/O1KK0GeVyqQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190610001322.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -756,6 +775,8 @@ BUG:
 </t>
 <t tx="leo.20190610001322.2">## 電腦對打
 
-&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/E9FdTr4Rllw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/E9FdTr4Rllw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 </tnodes>
 </leo_file>
