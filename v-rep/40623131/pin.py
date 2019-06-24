@@ -33,7 +33,7 @@ def pin():
         try:
             if keyboard.is_pressed('a'):
                 vrep.simxSetJointTargetVelocity(clientID,R1_handle,10,vrep.simx_opmode_oneshot_wait)
-            elif keyboard.is_pressed('1'):
+            elif keyboard.is_pressed('l'):
                 vrep.simxSetJointTargetVelocity(clientID,R2_handle,-10,vrep.simx_opmode_oneshot_wait)
             elif keyboard.is_pressed('UP'):
                 vrep.simxSetJointTargetVelocity(clientID,P_handle,5,vrep.simx_opmode_oneshot_wait)
